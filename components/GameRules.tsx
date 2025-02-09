@@ -9,6 +9,7 @@ export function GameRules() {
       <CardContent>
         <ul className="list-disc list-inside space-y-2 text-sm">
           <li>Guess a magic number between 1 and 10,000</li>
+          <li>Provably fair through Chainlink VRF random number generator</li>
           <li>Entry fee of .025 ETH is required to submit a guess</li>
           <li>The game ends when the maximum number of players is reached</li>
           <li>The player(s) with the closest guess wins the pot</li>
